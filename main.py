@@ -18,6 +18,7 @@ app.add_middleware(
         "https://ocr-frontend.vercel.app",  # your Vercel URL
         "https://ocr-frontend-*.vercel.app",  # preview deployments
         "https://sde-ocr-backend-5pzs.onrender.com",
+        "https://ocr-frontend-bice.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
