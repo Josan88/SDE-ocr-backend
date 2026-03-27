@@ -15,8 +15,9 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://ocr-frontend.vercel.app",     # your Vercel URL
-        "https://ocr-frontend-*.vercel.app",   # preview deployments
+        "https://ocr-frontend.vercel.app",  # your Vercel URL
+        "https://ocr-frontend-*.vercel.app",  # preview deployments
+        "https://sde-ocr-backend-5pzs.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
